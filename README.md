@@ -1,4 +1,4 @@
-# 4-Motors-Bending-Robot-Tool
+## Metal-Rod-Bending-For-ABB
 
 ##### Description
 Robot tool for bending metal rods composed by 4 stepper motors moving 4 metal rollers (actuators) independently in one axis movement.
