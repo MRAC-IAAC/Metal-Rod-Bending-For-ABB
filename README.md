@@ -1,14 +1,19 @@
 # 4-Motors-Bending-Robot-Tool
 
-**Description**
+##### Description
 Robot tool for bending metal rods composed by 4 stepper motors moving 4 metal rollers (actuators) independently in one axis movement.
+  ![Intro Image](./doc/Intro-Image.jpg)
 
-**Requirements**
- Format: ![Alt Text](url)
- ![Tool Dimensions Top View](D:\Roberto\01 Projects\02 IAAC\02 Curso\Hardware I\Week 6\4-motors-bending-robot-tool-master\4-motors-bending-robot-tool-master\doc folder\Tool dimensions 1.jpg)
- Format: ![Alt Text](url)
- 
-**Electronics**
+##### Requirements
+Tool Dimensions
+  ![Tool Dimensions Top View](./doc/Tool-dimensions-1.jpg)
+
+  ![Tool Dimensions Side](./doc/Tool-dimensions-3.jpg)
+
+  ![Tool Dimensions Isometric](./doc/Tool-dimensions-2.jpg)
+
+  ![Tool Dimensions Isometric2](./doc/Tool-dimensions-4.jpg)
+##### Electronics
 * [Arduino Uno](https://www.amazon.es/Longruner-Tarjeta-Expansi%C3%B3n-Controlador-LK75/dp/B072N4FMRN/ref=sr_1_8?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=grbl&qid=1573215919&sr=8-8&th=1)
 * [CNC shield GBRL](https://www.amazon.es/Longruner-Tarjeta-Expansi%C3%B3n-Controlador-LK75/dp/B072N4FMRN/ref=sr_1_8?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=grbl&qid=1573215919&sr=8-8&th=1)
 * [4 Nema 17 Stepper Motors 1.8° 200 steps per revolution](https://www.amazon.es/Longruner-Tarjeta-Expansi%C3%B3n-Controlador-LK75/dp/B072N4FMRN/ref=sr_1_8?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=grbl&qid=1573215919&sr=8-8&th=1)
@@ -16,11 +21,13 @@ Robot tool for bending metal rods composed by 4 stepper motors moving 4 metal ro
 * [4 DRV8825](https://www.amazon.es/Longruner-Tarjeta-Expansi%C3%B3n-Controlador-LK75/dp/B072N4FMRN/ref=sr_1_8?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=grbl&qid=1573215919&sr=8-8&th=1)
 
 
-**Software**
+##### Software
 Arduino Software (IDE)
 
-**Getting Started:**
-`<// defines pins numbers
+##### Getting Started
+
+Homing the Steppers Motors:
+```// defines pins numbers
 const int stepX = 2;
 const int dirX  = 5;
 const int limitX = 9;
@@ -102,8 +109,8 @@ void loop() {
     }
   }else{
     Serial.println("ok to RUN");
-  }>`
-
+  }
+```
 **References:**
 
 **Credits**
