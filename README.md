@@ -31,7 +31,7 @@ Tool Dimensions
 * [V-Slot Gantry Plate](https://makershopbcn.com/product/gantry-plate-v-slot)
 * [Metal Rollers 80mm Diameter](https://www.amazon.es/Estebro-124-Polea-80x20-U/dp/B00ITVWASC/ref=sr_1_2?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=poleas+metalicas&qid=1575991802&sr=8-2)
 
-![Electronic Diagram](./doc/Electronic-Diagram.jpg)
+  ![Electronic Diagram](./doc/Electronic-Diagram-Arduino.jpg)
 
 ##### Software
 
